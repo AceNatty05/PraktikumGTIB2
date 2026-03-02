@@ -24,7 +24,7 @@ void init(void) {
     glClearColor(0.5f, 0.8f, 1.0f, 1.0f);
     glLoadIdentity();
 }
-
+ 
 int main(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
