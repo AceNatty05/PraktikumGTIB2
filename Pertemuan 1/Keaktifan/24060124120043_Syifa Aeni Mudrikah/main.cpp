@@ -1,4 +1,4 @@
-
+// nama : syifa aeni mudrikah
 #include <GL/glut.h>
 
 void Roket(void) {
