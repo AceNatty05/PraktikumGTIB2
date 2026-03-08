@@ -1,6 +1,6 @@
 #include <GL/glut.h>
 
-void Garis(void) {
+void TitikGaris(void) {
     glClear(GL_COLOR_BUFFER_BIT);
 
     glPointSize(8.0f);
