@@ -11,14 +11,14 @@ void displayPrimitif(void) {
     glClear(GL_COLOR_BUFFER_BIT);
     glLoadIdentity();
 
-    // 1. GL_POINTS (Membuat Titik)
+    // 1. GL_POINTS (Titik)
     glPointSize(10.0f); 
     glBegin(GL_POINTS);  
         glColor3f(1.0f, 0.0f, 0.0f); // Warna Merah 
         glVertex2f(-0.7, 0.7); 
     glEnd();
 
-    // 2. GL_LINES (Membuat Garis)
+    // 2. GL_LINES (Garis)
     glLineWidth(3.0f); 
     glBegin(GL_LINES); 
         glColor3f(1.0f, 1.0f, 1.0f); // Warna Putih 
