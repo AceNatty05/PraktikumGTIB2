@@ -70,6 +70,7 @@ void init() {
     gluOrtho2D(-1, 1, -1, 1);
 }
 
+
 int main(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitWindowSize(800, 600);

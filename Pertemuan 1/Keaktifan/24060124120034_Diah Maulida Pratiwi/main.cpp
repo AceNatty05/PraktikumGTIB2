@@ -44,6 +44,7 @@ void RenderKarakter(void) {
     glFlush();
 }
 
+
 int main(int argc, char* argv[]) {
     glutInit(&argc, argv);
     glutInitWindowSize(600, 600);

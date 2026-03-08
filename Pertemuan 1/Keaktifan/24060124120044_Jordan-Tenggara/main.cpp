@@ -48,10 +48,8 @@ int main(int argc, char* argv[]) {
     glutInitWindowSize(640, 480);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
     glutCreateWindow("Squares with Borders");
-
     glutDisplayFunc(SegiEmpat);
     glClearColor(0, 0, 1, 1);
-
     glutMainLoop();
     return 0;
 }

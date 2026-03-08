@@ -33,6 +33,7 @@ void SegiEmpat(void) {
     glFlush();
 }
 
+
 int main(int argc, char* argv[]) {
     glutInit(&argc, argv);
     glutInitWindowSize(640, 480);
