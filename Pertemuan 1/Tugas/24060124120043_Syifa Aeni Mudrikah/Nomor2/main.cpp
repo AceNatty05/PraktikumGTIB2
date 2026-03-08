@@ -8,10 +8,11 @@ void Bentuk(void)
     // 1. GL_LINE_STRIP 
     glBegin(GL_LINE_STRIP);
         glColor3f(0.1f, 0.9f, 1.0f);
-        glVertex3f(-0.90f,  0.20f, 0.0f);
-        glVertex3f(-0.82f,  0.38f, 0.0f);
-        glVertex3f(-0.74f,  0.20f, 0.0f);
-        glVertex3f(-0.66f,  0.38f, 0.0f);
+        glVertex3f(-0.90f, -0.10f, 0.0f);  
+    	glVertex3f(-0.82f,  0.25f, 0.0f);  
+    	glVertex3f(-0.74f, -0.10f, 0.0f);  
+    	glVertex3f(-0.66f,  0.15f, 0.0f);  
+    	glVertex3f(-0.58f, -0.10f, 0.0f);  
     glEnd();
 
     // 2. GL_LINE_LOOP 
