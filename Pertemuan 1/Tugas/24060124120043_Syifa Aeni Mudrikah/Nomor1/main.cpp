@@ -33,7 +33,7 @@ int main(int argc, char* argv[]) {
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
     glutCreateWindow("Titik dan Garis");
 
-    glutDisplayFunc(Garis);
+    glutDisplayFunc(TitikGaris);
 
     glClearColor(1.0f, 1.0f, 0.2f, 0.2f); 
 
