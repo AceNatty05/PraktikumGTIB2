@@ -8,7 +8,7 @@
 
 #include <GL/glut.h>
 
-// Fungsi kotak pixel
+// Fungsi Kotak 
 void pixel(int x, int y) {
     glBegin(GL_QUADS);
     glVertex2i(x, y);
