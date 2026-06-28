@@ -1,4 +1,4 @@
-#include <GL/freeglut.h>
+#include <GL/glut.h>
 #include <cmath>
 
 // Posisi tangan pada sumbu X, Y, Z
